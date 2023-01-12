@@ -70,8 +70,13 @@ h1 {
     border-radius: 10px;
     font-weight: bold;
     backdrop-filter: blur(3px);
-    width: clamp(300px, 50vw, 400px);
+    width: clamp(340px, 50vw, 400px);
     transition: backdrop-filter 0.3s ease;
+}
+
+.Link svg {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .Link:hover {
